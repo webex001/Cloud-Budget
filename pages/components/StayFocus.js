@@ -8,6 +8,11 @@ const StayFocus = () => {
                 <p className='text-lg mt-10'>
                     It is important to stay focused on saving money in any way you can. We <br /> help you monitor your spending habits so you can easily spot and cut <br /> any unnecessary expenses. Simply join today to get started!
                 </p>
+                <div className='flex mt-8'>
+                    <img className='' src='/images/playstore.png'/>
+                    <img className='ml-6' src='/images/apple-store.png'/>
+                    <img className='ml-6' src='/images/windows.png'/>
+                </div>
             </div>
             <div className=''>
                 <img src='/images/focused-video.png' />

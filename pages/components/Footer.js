@@ -2,35 +2,32 @@ import React from 'react';
 
 const Footer = () => {
   return(
-      <div className='flex '>
+      <div className='flex justify-evenly bg-gray-50 pt-20 pb-20'>
           <div className=''>
-            <h2 className=''>Address</h2>
-            <p className=''>Pipang Ltd, Griva Digeni,
-                81-83 Jacovides Tower, 1st Floor
+            <h2 className='font-bold text-lg mb-6'>Address</h2>
+            <p className=''>Pipang Ltd, Griva Digeni, <br />
+                81-83 Jacovides Tower, 1st Floor <br />
                 1090 Picosia USA.
             </p>
           </div>
           <div className=''>
-            <h2 className=''>Services</h2>
+            <h2 className='font-bold text-lg mb-6'>Services</h2>
             <ul>
-                <li>Overview</li>
-                <li>Features</li>
-                <li>Technology</li>
-                <li>Terms & Condition</li>
-                <li>Privacy</li>
+                <li className='mb-1 cursor-pointer'>Overview</li>
+                <li className='mb-1 cursor-pointer'>Features</li>
+                <li className='mb-1 cursor-pointer'>Technology</li>
+                <li className='mb-1 cursor-pointer'>Terms & Condition</li>
+                <li className='mb-1 cursor-pointer'>Privacy</li>
             </ul>
           </div>
           <div className=''>
-            <h2 className=''>Get in Touch</h2>
-            <p className=''>davidbobboi@gmail.com</p>
-            <p>+1 844-721-7120</p>
+            <h2 className='font-bold text-lg mb-6'>Get in Touch</h2>
+            <p className='cursor-pointer'>davidbobboi@gmail.com</p>
+            <p className='cursor-pointer'>+1 844-721-7120</p>
           </div>
           <div className=''>
-            <h2 className=''>We Support</h2>
-            <p className=''>Pipang Ltd, Griva Digeni,
-                81-83 Jacovides Tower, 1st Floor
-                1090 Picosia USA.
-            </p>
+            <h2 className='font-bold text-lg mb-6'>We Support</h2>
+            <img className='cursor-pointer' src='/images/support.png'/>
           </div>
       </div>
   )
