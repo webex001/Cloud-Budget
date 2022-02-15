@@ -10,11 +10,11 @@ const Navbar = () => {
 
           <div className=''>
               <ul className='flex justify-evenly mt-1.5'>
-                  <li className='text-sm uppercase leading-5 ml-8 cursor-pointer font-bold'>Overview</li>
-                  <li className='text-sm uppercase font-bold leading-5 ml-8 cursor-pointer'>Features</li>
-                  <li className='text-sm uppercase font-bold leading-5 ml-8 cursor-pointer'>Technology</li>
-                  <li className='text-sm uppercase font-bold leading-5 ml-8 cursor-pointer'>Contact</li>
-                  <li className='text-sm uppercase font-bold leading-5 ml-8 cursor-pointer'>Sign up</li>
+                  <li className='text-sm uppercase leading-5 ml-8 cursor-pointer font-normal'>Overview</li>
+                  <li className='text-sm uppercase font-normal leading-5 ml-8 cursor-pointer'>Features</li>
+                  <li className='text-sm uppercase font-normal leading-5 ml-8 cursor-pointer'>Technology</li>
+                  <li className='text-sm uppercase font-normal leading-5 ml-8 cursor-pointer'>Contact</li>
+                  <li className='text-sm uppercase font-normal leading-5 ml-8 cursor-pointer'>Sign up</li>
               </ul>
           </div>
             <a href='' className='outline outline-2  outline-offset-2 pt-2 pb-2 pl-10 pr-10 uppercase rounded-sm hover:bg-white hover:text-black hover:border-0 hover:border-white transition-all duration-100'>Login</a>

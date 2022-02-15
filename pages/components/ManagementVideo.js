@@ -5,10 +5,10 @@ const ManagementVideo = () => {
       <div className='flex mt-24 mb-20'>
           <div className='flex-1'>
             <h2 className='text-center font-normal mt-4 text-4xl'>Easy to Use Cloud Budget <br /> Management Software</h2>
-            <p className='text-left mt-10 pl-28 pr-24 mb-5'>
+            <p className='text-left mt-10 pl-28 pr-24 mb-5 font-meduim'>
             Our software is made so you can access and manage your budget and expenses online at any time from any device. It provides detailed income and expense reports with graphs so you can easilly see your spending patterns and budget at a glance. Read below to find out more.
             </p>
-            <a href='#' className='uppercase pl-28 mt-10 text-red-500'>Learn More</a>
+            <a href='#' className='uppercase pl-28 mt-10 text-red-500 text-sm font-semibold'>Learn More</a>
           </div>
           <div className='flex-1'>
               <div className='flex'>

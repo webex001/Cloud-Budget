@@ -4,8 +4,8 @@ const Contact = () => {
   return(
       <div className='flex justify-evenly mt-24 mb-24'>
           <div className=''>
-            <h3 className='text-4xl mb-10'>Contact</h3>
-            <p className=''>Questions or concerns? Just fill out the form below and our support <br/> team will get back to you within 24 hours</p>
+            <h3 className='text-4xl font-semibold mb-10'>Contact</h3>
+            <p className='font-normal text-base leading-5'>Questions or concerns? Just fill out the form below and our support <br/> team will get back to you within 24 hours</p>
           </div>
           <div>
             <div className='flex'>
