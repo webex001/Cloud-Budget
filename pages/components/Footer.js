@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return(
-      <div className='flex justify-around'>
+      <div className='flex '>
           <div className=''>
             <h2 className=''>Address</h2>
             <p className=''>Pipang Ltd, Griva Digeni,

@@ -4,7 +4,7 @@ const Features = () => {
   return(
     <div className='bg-gray-50 pt-20 pb-48'>
     <h2 className='text-center text-3xl mb-10'>Features</h2>
-      <div className='flex justify-around'>
+      <div className='container flex justify-evenly'>
           <div className="">
               <div className='-z-10'>
                 <img src='/images/hand-money.png' />

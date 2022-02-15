@@ -2,9 +2,9 @@ import React from 'react';
 
 const Technology = () => {
   return (
-      <div className='mt-20 mb-20'>
+      <div className='mt-20 mb-32'>
           <h2 className='text-center text-3xl'>Technology</h2>
-          <div className='flex justify-around'>
+          <div className='flex justify-evenly'>
               <div className='mt-20'>
                     <h2 className='text-8xl text-gray-200 z-0'>01</h2>
                     <img className='absolute -mt-12 ml-3 z-20' src='/images/download.png' />
