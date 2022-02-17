@@ -25,7 +25,7 @@ const Footer = () => {
             <h2 className='font-bold text-lg mb-2 mt-10 text-center'>Get in Touch</h2>
             <p className='cursor-pointer mb-1 text-center'>davidbobboi@gmail.com</p>
             <p className='cursor-pointer text-center'>+1 844-721-7120</p>
-            <div className='flex mt-5 justify-center'>
+            <div className='flex mt-5 justify-center '>
               <img className='w-5 cursor-pointer' src='/images/feather-facebook.png' />
               <img className='ml-4 w-5 cursor-pointer' src='/images/feather-linkedin.png' />
               <img className='ml-4 w-5 cursor-pointer' src='/images/feather-twitter.png' />
@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
           <div className=''>
             <h2 className='font-bold text-lg mb-2 text-center mt-10'>We Support</h2>
-            <img className='cursor-pointer ml-12' src='/images/support.png'/>
+            <img className='cursor-pointer ml-12 sm:ml-52' src='/images/support.png'/>
           </div>
       </div>
       <p className='text-center mt-24'>Copyright 2022 CloudBudget</p>
