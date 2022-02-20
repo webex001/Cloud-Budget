@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
           <div className=''>
             <h2 className='font-bold text-lg mb-2 text-center mt-10'>We Support</h2>
-            <img className='cursor-pointer ml-12 sm:ml-52' src='/images/support.png'/>
+            <img className='cursor-pointer lg:ml-12 ml-28' src='/images/support.png'/>
           </div>
       </div>
       <p className='text-center mt-24'>Copyright 2022 CloudBudget</p>
