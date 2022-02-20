@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return(
     <div className='bg-gray-50 pt-20 pb-20'>
-      <div className='flex-col md:justify-evenly'>
+      <div className='lg:grid lg:grid-cols-4 lg:gap-0 md:justify-evenly'>
           <div className=''>
             <h2 className='font-bold text-lg mb-2 text-center'>Address</h2>
             <p className='text-center'>Pipang Ltd, Griva Digeni, <br />
@@ -12,7 +12,7 @@ const Footer = () => {
             </p>
           </div>
           <div className=''>
-            <h2 className='font-bold text-lg mb-2 mt-10 text-center'>Services</h2>
+            <h2 className='font-bold text-lg mb-2 mt-10 lg:mt-0 text-center'>Services</h2>
             <ul>
                 <li className='mb-1 cursor-pointer text-center'>Overview</li>
                 <li className='mb-1 cursor-pointer text-center'>Features</li>
@@ -22,7 +22,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className=''>
-            <h2 className='font-bold text-lg mb-2 mt-10 text-center'>Get in Touch</h2>
+            <h2 className='font-bold text-lg mb-2 mt-10 lg:mt-0 text-center'>Get in Touch</h2>
             <p className='cursor-pointer mb-1 text-center'>davidbobboi@gmail.com</p>
             <p className='cursor-pointer text-center'>+1 844-721-7120</p>
             <div className='flex mt-5 justify-center '>
@@ -32,8 +32,8 @@ const Footer = () => {
             </div>
           </div>
           <div className=''>
-            <h2 className='font-bold text-lg mb-2 text-center mt-10'>We Support</h2>
-            <img className='cursor-pointer lg:ml-12 ml-28' src='/images/support.png'/>
+            <h2 className='font-bold text-lg mb-2 text-center mt-10 lg:mt-0'>We Support</h2>
+            <img className='cursor-pointer sm:ml-52 md:ml-72 lg:ml-4 ml-28' src='/images/support.png'/>
           </div>
       </div>
       <p className='text-center mt-24'>Copyright 2022 CloudBudget</p>
