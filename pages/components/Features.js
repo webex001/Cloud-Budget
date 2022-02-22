@@ -4,7 +4,7 @@ const Features = () => {
   return(
     <div className='bg-gray-50 pt-20 pb-20'>
     <h2 className='text-center text-4xl font-semibold mb-10'>Features</h2>
-      <div className='container lg:grid lg:grid-cols-3 ml-10 lg:gap-10 lg:ml-0'>
+      <div className='container lg:grid lg:grid-cols-3 xl:grid-cols-3 ml-10  lg:gap-1'>
           <div className="mb-44 sm:ml-36 sm:mt-14 lg:mt-0 lg:ml-1">
               <div className='m-3 sm:m-0 -z-10'>
                 <img src='/images/hand-money.png' />

@@ -5,7 +5,7 @@ const Contact = () => {
       <div className='lg:grid lg:grid-cols-2 lg:gap-10 justify-evenly  mt-24 mb-24 sm:flex-wrap'>
           <div className=''>
             <h3 className='text-4xl font-semibold mb-5 text-center'>Contact</h3>
-            <p className='font-normal lg:text-sm text-base text-center leading-5 lg:text-left m-3'>Questions or concerns? Just fill out the form below and our support <br/> team will get back to you within 24 hours</p>
+            <p className='font-normal lg:text-sm text-base text-center leading-5 lg:text-center m-3'>Questions or concerns? Just fill out the form below and our support <br/> team will get back to you within 24 hours</p>
           </div>
           <div className='sm:ml-12 md:ml-28 lg:ml-0 lg:-mt-14'>
             <div className='mt-10 ml-16 lg:ml-0'>
