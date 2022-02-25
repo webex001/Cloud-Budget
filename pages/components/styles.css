@@ -1,0 +1,47 @@
+.nav__menu{
+    display: none;
+}
+.nav{
+    background: #fff;
+    padding: 30px 30px;
+    z-index: 999;
+}
+
+@media (max-width: 375px){
+    #nav-items{
+        display: none;
+    }
+    .header{
+        margin-left: -4.9rem;
+    }
+    .header__logoImg{
+        margin-left: 27px;
+    }
+    .detailTitle{
+        margin-left: 348px;
+    }
+    .detailText{
+        margin-left: 341px;
+    }
+    #model-slider{
+        width: 333px;
+        margin-left: 190px;
+    }
+    .second-grid-title, .second-grid-text{
+        margin-left: 20px;
+    }
+    .nav__menu{
+        display: block;
+    }
+}
+@media (max-width: 425px){
+    .nav__menu{
+        display: block;
+    }
+}
+
+@media (max-width: 320px){
+    .nav__menu{
+        display: block;
+    }
+}

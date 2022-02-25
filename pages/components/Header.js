@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 const Header = () => {
   return (
       <div className=" bg-[url('/images/showcase-bg.png')] bg-cover pb-36 sm:bg-cover ">
-          {/* <Navbar /> */}
+          <Navbar />
           <div className='flex flex-col justify-center'>
               <h2 className=' text-white text-center mt-40 text-5xl lg:text-7xl sm:text-5xl md:text-7xl leading-10 uppercase font-bold non-italic '>CloudBudget</h2>
               <p className='text-white text-center text-sm leading-8 mt-6'>Cloud budget management for everyone. Only <br /> €69.95 a Month After a 7 Day Trial of <br /> Up to €4.99. <br /><br/>
